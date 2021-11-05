@@ -1,0 +1,26 @@
+.banner {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.banner p:nth-of-type(odd) {
+ 
+    color:black;
+    word-wrap:break-word;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: pink;
+}
+.banner p:nth-child(even) {
+
+    color: pink;
+    word-wrap:break-word;
+
+
+}

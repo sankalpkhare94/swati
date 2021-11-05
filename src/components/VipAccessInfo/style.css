@@ -1,0 +1,67 @@
+.vipaccessinfo {
+    display: flex;
+    flex-direction: row;
+    background-color:blue;
+    align-items: center;
+    justify-content:space-around;
+    height: max-content;
+    width: 100%;
+    padding : 100px 0px 100px 0px;
+}
+
+.infopic{
+    width: 700px;
+    height: 450px;
+}
+
+.infodetails{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.infodetails span:nth-child(1){
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: palevioletred
+}
+
+.infodetails span:nth-child(2){
+    font-size: 6em;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: palevioletred
+}
+
+.infodetails span:nth-child(3){
+    font-size: 1.2em;
+    color: white;
+
+}
+.infodetails span:nth-child(4){
+    font-size: 1.2em;
+    color: white;
+
+}
+
+.infolist {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5em;
+    align-items: center;
+    text-align: left;
+}
+
+.infolist p:nth-of-type(1){
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+}
+
+.infolist p:nth-of-type(2){
+    font-size: 1.2em;
+    color: white;
+}
+
+
